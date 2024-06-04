@@ -3,10 +3,27 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-  font-size: 14px;
-}
 
 body {
   font-family: "Kanit", sans-serif;
+}
+header{
+  z-index: 1001 !important;
+}
+
+.section-container{
+  @apply max-w-screen-2xl container mx-auto  xl:px-24 px-8
+}
+
+.subtitle{
+  @apply text-red-1 uppercase tracking-wide text-lg
+}
+.title{
+  @apply text-4xl md:text-5xl font-semibold my-2 md:leading-snug leading-snug
+}
+.heartStar{
+  border-radius: 0px 15px 0px 28px;
+}
+.footer-title{
+  color: black !important;
 }
